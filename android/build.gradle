@@ -69,8 +69,10 @@ repositories {
     google()
     jcenter()
     maven {
-        maven { url "https://jitpack.io" }
-        url 'https://esri.bintray.com/arcgis'
+        maven {
+            url 'https://esri.bintray.com/arcgis'
+        }
+        url "https://jitpack.io"
 
     }
 }
